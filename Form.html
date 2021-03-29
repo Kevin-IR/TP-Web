@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+         <meta charset="utf-8" />
+         <title>Form - GIGA CORP$</title>
+         <link rel="stylesheet" href="css/style_form.css" />
+    </head>
+    
+    <body>
+
+<fieldset>
+  <legend>Coordonnées</legend>
+
+  <form method="post" action="Form.php">
+   
+    <p>
+       Votre nom :<br />
+       <input type="text" name="nom" id="nom" />
+    </p>
+
+    <p>
+       Votre prénom :<br />
+       <input type="text" name="prénom" id="prénom" />
+    </p>
+
+    <p>
+        Veuillez indiquer votre date de naissance :<br />
+        <input type="date" name="date" id="date"/>
+    </p>
+
+    <p>
+        Veuillez indiquer votre adresse e-mail :<br />
+        <input type="email" name="email" id="email"/>
+    </p>
+
+    <p>
+        Veuillez indiquer votre site web :<br />
+        <input type="url" />
+    </p> 
+
+    <p>
+       Veuillez indiquer votre genre :<br />
+       <input type="radio" name="genre" value="Femme" id="Femme" /> <label for="Femme">Femme</label><br />
+       <input type="radio" name="genre" value="Homme" id="Homme" /> <label for="Homme">Homme</label><br />
+       <input type="radio" name="genre" value="Autre" id="Autre" /> <label for="Autre">Autre</label><br />
+    </p>
+    
+    <p>
+    
+       <label for="pays">Dans quel pays habitez-vous ?</label><br />
+       <select name="pays" id="pays">
+           <optgroup label="Europe">
+               <option value="france">France</option>
+               <option value="espagne">Espagne</option>
+               <option value="italie">Italie</option>
+           </optgroup>
+           <optgroup label="Amérique">
+               <option value="canada">Canada</option>
+               <option value="etats-unis">Etats-Unis</option>
+           </optgroup>
+           <optgroup label="Asie">
+               <option value="chine">Chine</option>
+               <option value="japon">Japon</option>
+           </optgroup>
+       </select>
+    
+    </p>
+
+</fieldset>
+
+<fieldset>
+  <legend>Loisirs</legend>
+
+
+    <p>
+       Choisisez vos loisirs :<br />
+       <input type="radio" name="loisirs" value="Lecture" id="Lecture" /> <label for="Lecture">Lecture</label><br />
+       <input type="radio" name="loisirs" value="Voyage" id="Voyage" /> <label for="Voyage">Voyage</label><br />
+       <input type="radio" name="loisirs" value="Sport" id="Sport" /> <label for="Sport">Sport</label><br />
+    </p>
+    <p>
+       <textarea name="loisirs" id="loisirs" rows="5" cols="80">
+       Décrivez vos loisirs en détails !
+       </textarea>       
+   </p>
+
+</fieldset>
+
+<fieldset>
+  <legend>Votre Photo</legend>
+
+       <input type="file" name="photo" accept="image/png, image/jpeg" /><br />
+       <input type="hidden" name="max_size" value="10000" /><br />
+       <input type="submit" name="envoyer"/><br />
+       <input type="reset" name="effacer"/><br />
+</form>
+</fieldset>
+
+</body>
+</html>

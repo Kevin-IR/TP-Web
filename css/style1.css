@@ -1,0 +1,211 @@
+*{
+	color: rgb(255, 255, 255);
+	font-family: verdana;
+}
+
+section {
+	background :#363030;
+	padding: 10px 10px 15px 15px;
+	margin: 5px 5px 5px 5px;
+}
+
+nav {
+	
+	position: absolute;
+	height:10%;
+	width:50%;
+	top:15%;
+	left:25%;
+}
+
+nav ul li{
+	display: inline;
+	text-align: center;
+	padding: 0.4em 0.4em; 
+	font-size: 1.1em;
+	background-color: #7451eb ; 
+	padding-right: 2%;
+    padding-left: 2%;   
+	border-radius: 15px;
+	box-shadow: 2px 2px 0px gray;
+}
+
+li {
+ margin-left:20px;
+ }
+
+
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+} 
+
+
+.titre {
+	border-width :1px;
+ 	border-style :dotted;
+ 	border-color :black;
+ 	background-color: #EEE8AA;
+ 	color: #660066;
+ 	text-align: center;
+ 	width: 50%;
+ 	font-size: 1.6em;
+ 	margin: auto;
+}
+
+nav {
+	border : 2px solid #363030;
+	position: absolute;
+	height:10%;
+	width:78%;
+	top:15%;
+	left:20%;
+}
+
+nav ul li{
+	display: inline;
+	text-align: center;
+	padding: 0.4em 0.4em; 
+	font-size: 1.1em;
+	background-color: #D3D3D3 ;
+	padding-right: 2%;
+    padding-left: 2%;   
+	border-radius: 15px;
+	box-shadow: 2px 2px 0px gray;
+}
+
+li {
+ margin-left:20px;
+ }
+
+
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+} 
+
+body {
+	width: 90%;
+	align-self: center;
+	padding: 15px;
+	margin: 10px;
+	padding: auto;
+	margin: auto;
+	background-color: #363030;
+	-moz-box-shadow: 0px 0px 10px #000;
+}
+
+h2 {
+	border-bottom: 1px solid #558199;
+	font-size: 110%;
+	background-color: rgb(255, 255, 255);
+	color: #363030;
+	text-shadow: 0px 1px 0px #CAE9F9;
+}
+
+table {
+	background: rgb(255, 255, 255);
+	border-width:1px; 
+ 	border-style:solid; 
+ 	border-color:black;
+	border-radius: 1px 0 3px 4px;
+	font-size: 14px;
+}
+
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:red;
+ text-align: center;
+ color : #363030;
+
+ }
+
+footer {
+	text-align: center;
+	border-width:3px;
+	width: 100%;
+	text-align: center;
+ 	border-style:solid; 
+	bottom: 0px;
+	background-color: rgb(255, 255, 255);
+	font-size: 75%;
+	color: #363030;
+}
+
+
+header {
+	top: 5% ;
+	left:10%;	
+	height: 60px;
+	font-weight: bold;
+	font-size: 1.8em;
+	text-align: center;
+}	
+
+
+ table {
+  font-family: verdana, sans-serif;
+  border-collapse: collapse; 
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.logo{
+	width : 17%;
+	height: 17%;
+	border: none;
+	float: right;
+	margin-right: 45px;
+}
+
+.covers1{
+	width : 17%;
+	height: 17%;
+	border: none;
+	float: right;
+}
+
+.covers2{
+	width : 18.7%;
+	height: 18.7%;
+	border: none;
+	float: right;
+}
+
+.title{
+	font-style: italic ;
+}
+
+.TT{
+	width : 17%;
+	height: 17%;
+	border: none;
+	float: left;
+}
+
+.BB{
+	width : 19.2%;
+	height: 19.2%;
+	border: none;
+	float: left;
+	margin-right:2%;
+}
+
+.ALB{
+	width : 20%;
+	height: 20%;
+	border: none;
+	float: right;
+	margin-right:1%;
+}
